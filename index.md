@@ -9,4 +9,7 @@
 
   <br>
   <h6>
-  You can view the [README file](README.md) for more info about each project<h6>
+
+  You can view the README file for more information
+
+  [README file](README.md)
