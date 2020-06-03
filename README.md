@@ -1,3 +1,9 @@
+---
+layout: default
+
+---
+
+
 # Basic Javascript Program
 
 ## What this repository is for?
