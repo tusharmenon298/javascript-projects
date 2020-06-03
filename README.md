@@ -1,8 +1,3 @@
----
-layout: default
-
----
-
 
 # Basic Javascript Program
 
