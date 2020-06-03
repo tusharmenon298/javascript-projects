@@ -17,3 +17,12 @@ The link for the gitpage for this repository is [here](https://tusharmenon298.gi
   As the name suggests this  project randomizes the background of the webpage. Also, if the user likes the color, they can find the hex number of that color
 </p>
 </li>
+
+
+<li>
+
+#### Counter
+<p>
+  The program is a basic step counter. On hitting increase, the count increases. On hitting decrease the count decreases. If the count goes below 0, it turns red, if it goes above zero, it turns green
+</p>
+</li>
