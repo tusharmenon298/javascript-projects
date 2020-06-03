@@ -23,11 +23,11 @@ function getRandomColor()
 function changeColor(){
   random=getRandomColor();
   bkg.style.backgroundColor=random;
-  output.style.color=random;
+  output.style.visibility="hidden";
 }
 //Displays hex number
 function answer(){
-  output.style.color="black";
+  output.style.visibility="visible";
   result.innerHTML=random;
 }
 

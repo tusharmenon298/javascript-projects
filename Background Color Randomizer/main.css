@@ -13,7 +13,14 @@ body{
 
 .hex{
   text-transform: capitalize;
-  color: #ffffff
+  color: #ffffff ;
+  visibility: hidden;
+  background: rgba(0,0,0,0.6);
+  padding: 0.5em 0.5em;
+  justify-content: center;
+  align-items: center;
+  border: 0.1em solid #fefefe;
+  border-radius: 0.2%;
 }
 
 .result{
