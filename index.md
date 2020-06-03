@@ -13,6 +13,6 @@
 
   <br>
   <h6>
-  You can view the <a href="./javascript-projects/README.md"> README file </a>for more info about each project<h6>
+  You can view the <a href="README.md"> README file </a>for more info about each project<h6>
   </body>
   </html>
