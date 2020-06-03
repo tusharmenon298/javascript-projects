@@ -1,3 +1,10 @@
+/*Changes size when screen is minimized */
+
+@media screen and (max-height: 450px) {
+
+}
+
+
 /*Body*/
 
 body{
@@ -7,10 +14,18 @@ body{
   align-items: center;
 }
 
+
+/*Contains the text and the buttons*/
 .container{
   text-align: center;
 }
+/*Changes size when screen is minimized */
 
+@media screen and (max-height: 450px) {
+
+}
+
+/*The text*/
 .hex{
   text-transform: capitalize;
   color: #ffffff ;
@@ -22,7 +37,7 @@ body{
   border: 0.1em solid #fefefe;
   border-radius: 0.2%;
 }
-
+/*The hex color returned by JavaScript*/
 .result{
   font-size: 2em;
 }

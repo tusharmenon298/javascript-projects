@@ -8,7 +8,7 @@ var random=""
 
 //functions
 
-
+//Random color generator
 function getRandomColor()
 {
   let letters='0123456789ABCDEF';
