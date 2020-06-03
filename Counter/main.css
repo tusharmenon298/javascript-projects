@@ -22,7 +22,7 @@ h1 {
   font-size: 3rem;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-height: 450px) {
   h1 {
     font-size: 4rem;
   }
