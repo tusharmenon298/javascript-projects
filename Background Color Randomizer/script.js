@@ -1,8 +1,14 @@
 //Select the button and body
 const randButton=document.querySelector('.randomizer');
 const bkg =document.querySelector('body');
+const hexButton=document.querySelector('.hexNumber')
+const output=document.querySelector('.hex')
+const result=document.querySelector('.result')
+var random=""
 
 //functions
+
+
 function getRandomColor()
 {
   let letters='0123456789ABCDEF';
@@ -13,9 +19,18 @@ function getRandomColor()
   }
   return colors
 }
-
+//Changes background
 function changeColor(){
-  bkg.style.backgroundColor=getRandomColor()
+  random=getRandomColor();
+  bkg.style.backgroundColor=random;
+  output.style.color=random;
 }
+//Displays hex number
+function answer(){
+  output.style.color="black";
+  result.innerHTML=random;
+}
+
 //Event Listener
 randButton.addEventListener('click',changeColor);
+hexButton.addEventListener('click',answer);
